@@ -1,0 +1,89 @@
+.tournament_page_header {
+    border: 1px solid rgba(216, 216, 216, 0.242);
+    padding: 9px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.create_tour_body {
+    width: 100%;
+    height: 50vh;
+    overflow: auto;
+}
+.user_section_section {
+    width: 100%;
+    position: relative;
+}
+.user_list_section {
+    width: 100%;
+    height: 35vh;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    z-index: 10;
+    background-color: white;
+}
+.user_card {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(189, 184, 184);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user_name {
+    font-weight: 500;
+    font-size: 0.825rem;
+}
+.user_avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.select_user_section {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 5px 12px;
+    background-color: royalblue;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 0.725rem;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cancel_icon {
+    margin-left: 12px;
+    color: aliceblue;
+    font-size: 0.85rem;
+}
+.tournaments_section {
+    width: 100%;
+    height: 69.5vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.empty_list {
+    font-weight: 500;
+    font-size: 0.85rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: aliceblue;
+}
+.empty_tbody {
+    width: 100% !important;
+}
+.user_magement_page {
+    width: 100%;
+    height: 85vh;
+    overflow: scroll;
+    overflow-y: none;
+    overflow-x: none;
+}

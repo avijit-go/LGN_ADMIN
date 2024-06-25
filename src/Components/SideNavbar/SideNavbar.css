@@ -1,0 +1,29 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+.sidnavbar_container {
+  width: 100%;
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  color: aliceblue;
+}
+.navitem {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  height: 45px;
+  /* font-family: "Playwrite DE Grund", cursive; */
+}
+.navitem_icon {
+  font-size: 1.02rem;
+  margin: 0px 7px;
+}
+.navitem_name {
+  margin-left: 15px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.active_navitem {
+  background-color: var(--primary-button-color);
+}

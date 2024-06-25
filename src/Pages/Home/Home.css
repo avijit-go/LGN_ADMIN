@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+.home_container {
+    width: 100%;
+    height: 85vh;
+    overflow: scroll;
+}
+.home_container::-webkit-scrollbar {
+    display: none;
+}
+.home_container {
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.analytics_section {
+    width: 100%;
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inner_cntainer {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.analytics_box {
+    width: 250px;
+    height: 160px;
+    border-radius: 7px;
+    margin: 5px;
+    color: aliceblue;
+    background-color: var(--primary-button-color);
+    text-align: center;
+    position: relative;
+}
+.analytics_text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(240, 248, 255, 0.757);
+    letter-spacing: 0.2px;
+}
+.analytics_count {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.pie_container {
+    width: 100%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leaderboard_section {
+    padding: 9px;
+}
+.home_event_section {
+    padding: 7px;
+}
+.home_event_title {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: rgba(240, 248, 255, 0.796);
+    font-family: "Playwrite DE Grund", cursive;
+}
+.events_section {
+    border: 1px solid red;
+    margin: 7px 0;
+    font-weight: 500;
+}

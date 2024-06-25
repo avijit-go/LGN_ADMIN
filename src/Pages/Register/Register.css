@@ -1,0 +1,62 @@
+.auth_page_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3542 !important;
+}
+.auth_form_section {
+    max-width: 380px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.input_section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 9px 0;
+    border: 1px solid rgba(236, 236, 236, 0.496);
+    border-radius: 3px;
+}
+.input_icons {
+    color: rgb(255, 222, 228);
+    font-size: 1.02rem;
+}
+.auth_input {
+    width: 100%;
+    height: 35px !important;
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+    color: aliceblue !important;
+    border: none !important;
+    border-radius: 3px !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.disable_auth_button, .auth_button  {
+    margin-top: 12px !important;
+    width: 100% !important;
+    height: 38px !important;
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+    color: aliceblue !important;
+    background-color: #f78999 !important;
+    cursor: no-drop !important;
+}
+.auth_button {
+    background-color: #ff4757 !important;
+    cursor: pointer !important;
+}
+.redirection_link {
+    font-weight: 400;
+    font-size: 0.725rem;
+    cursor: pointer;
+    text-align: right;
+    color: rgba(233, 237, 241, 0.518);
+}

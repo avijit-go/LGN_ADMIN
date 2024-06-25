@@ -1,0 +1,76 @@
+/** @format */
+
+.search_input_section {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border: 1px solid rgba(247, 250, 251, 0.181);
+}
+.search_input {
+  max-width: 320px !important;
+  width: 100%;
+  box-sizing: none !important;
+  border: 1px solid rgba(247, 250, 251, 0.181) !important;
+  font-weight: 400 !important;
+  font-size: 0.85rem !important;
+  margin: 7px 10px !important;
+  color: aliceblue !important;
+}
+.__user_list_section {
+  height: 47vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.active_btn {
+  font-weight: 400 !important;
+  font-size: 0.75rem !important;
+  color: aliceblue !important;
+  margin: 0 !important;
+  height: fit-content !important;
+  width: fit-content !important;
+  padding: 3px 12px;
+}
+.user {
+  background-color: royalblue !important;
+}
+.streamer {
+  background-color: #2ed573 !important;
+}
+.pending {
+  background-color: #ffa502 !important;
+}
+.modal_message_input {
+  width: 100% !important;
+  height: 90px !important;
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+  margin: 7px 0 !important;
+}
+.limit_counter_section {
+  margin: 7px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item {
+  color: black !important;
+}
+
+.user_magement_page {
+  width: 100%;
+  height: 50vh;
+  overflow: scroll;
+}
+.user_magement_page::-webkit-scrollbar {
+  display: none;
+}
+.user_magement_page {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.user_table_section {
+  width: 100%;
+  height: 50vh;
+}
